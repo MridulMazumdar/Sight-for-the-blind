@@ -1,11 +1,11 @@
 # Sight-for-the-blind
-A Computer Vision based project which uses yolo algorithm for object detection and google text to speech api to convert text lables of detected objects into speech. The purpose of this project is to help blind people to identify the object and to get an idea of the position of the object in front of them. 
+A Computer Vision based project which uses YOLO algorithm for object detection and Google's text-to-speech API to convert text lables of detected objects into speech. The purpose of this project is to help blind people to identify the object and to get an idea of the position of the object in front of them. 
 
-The default speech language is english(en) but can be changed in to any language just by changing the lang parameter in function "tts = gTTS(description, lang='en')". 
+The default speech language is english(en) which can be changed in to any language just by changing the lang parameter in function "tts = gTTS(description, lang='en')". 
 
 Necessary Dependencies:
 
-Install Google Text to Speech python3 library by using "pip3 install gTTS" command.
+Install Google's Text-to-Speech python3 library by using "pip3 install gTTS" command.
 
 Install OpenCV 4.1.2 on linux from https://github.com/opencv/opencv/tree/4.1.2
 
